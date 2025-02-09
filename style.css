@@ -14,18 +14,35 @@ body {
   background-color: black;
   color: black;
   margin: 0;
+  line-height: 1.2;
 }
 
 .wrapper {
-  margin: 0px 40px 0px 40px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1.2px;
+}
+
+p, main {
+  padding: 0px 35px 0px 35px;
 }
 
 .form-wrap-container {
-  display: flex;
-  align-items: flex-end;
-
+  font-size: 1.5rem;
   font-family: Norse, Verdana, Geneva, Tahoma, sans-serif;
   height: 30%;
+  background-color: #faebd712;
+}
+
+.form-container {
+  background: white;
+  height: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
 }
 
 .main-container {
@@ -34,10 +51,6 @@ body {
   width: 79%;
   margin: 0 auto;
   background-color: white;
-}
-
-.form-container {
-
 }
 
 .img-sidebar {
