@@ -6,7 +6,6 @@
   font-display: swap;
 }
 
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -17,7 +16,15 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  margin: 0px 40px 0px 40px;
+}
+
 .form-wrap-container {
+  display: flex;
+  align-items: flex-end;
+
+  font-family: Norse, Verdana, Geneva, Tahoma, sans-serif;
   height: 30%;
 }
 
