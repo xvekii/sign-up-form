@@ -17,6 +17,40 @@ body {
   line-height: 1.2;
 }
 
+.img-sidebar {
+  position: relative;
+}
+
+.odin-outer-logo-container {
+  display: flex;
+  align-items: flex-end;
+  color: #e5b72d;
+  height: 30%;
+  width: 100%;
+  position: absolute;
+}
+
+.logo-container {
+  padding: 14px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #000000bf;
+}
+
+.odin-logo {
+  width: 20%;
+}
+
+.odin-span {
+  padding-top: 16px;
+  font-size: 4rem;
+  font-family: Norse, Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
 .wrapper {
   width: 100%;
 }
@@ -32,7 +66,7 @@ p, main {
 }
 
 .form-wrap-container {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: Norse, Verdana, Geneva, Tahoma, sans-serif;
   height: 30%;
   background-color: #faebd712;
