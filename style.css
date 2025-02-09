@@ -2,7 +2,25 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  min-height: 100vh;
+  width: 80%;
+}
+
+.img-sidebar {
+  width: 40%;
+}
+
 img {
+  display: block;
+  height: 100%;
   max-width: 100%;
+  object-fit: cover;
   user-select: none;
 }
